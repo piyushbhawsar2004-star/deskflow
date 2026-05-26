@@ -39,4 +39,4 @@ export function enrichTickets(tickets) {
   return tickets.map(ticket => enrichTicket(ticket));
 }
 
-export const SLA_TARGETS as SLATargets;
+export { SLA_TARGETS };
